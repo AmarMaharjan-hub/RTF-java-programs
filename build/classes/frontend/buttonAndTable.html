@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--developer.mozilla.org-->
+<script>
+        function callAlert(){
+            alert("This is alert message");
+        }
+
+        function addRow(){
+            let table = document.getElementById("table");
+            let row = table.insertRow(-1);
+            let cellFirst = row.insertCell(0);
+
+            var input = document.createElement("input");
+            cellFirst.appendChild(input);
+            input.setAttribute("width", "100%");
+            
+        }
+
+        function sendData(){
+
+        }
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <title>Button and Table</title>
+</head>
+<body>
+<!--    <form method="get">-->
+        <button onclick="callAlert()">call alert</button><br/>
+        <button onclick="addRow()">add row</button><br/>
+        <input type="submit" value="Send"><br/>
+        <table border="1" id="table" width = 20%>
+            <tr>
+                <th>CONTENT</th>
+            </tr>
+        </table>
+<!--    </form>-->
+</body>
+</html>
