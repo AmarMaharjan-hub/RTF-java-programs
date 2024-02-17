@@ -1,6 +1,6 @@
 package newjavaprograms.searchingprograms;
 
-import netscape.javascript.JSUtil;
+//import netscape.javascript.JSUtil;
 
 import java.util.*;
 
